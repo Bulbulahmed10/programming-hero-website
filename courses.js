@@ -21,3 +21,7 @@ $(document).ready(function () {
     $(this).parent(".specialty-info-box").find(".text-line").toggle();
   });
 });
+
+
+
+

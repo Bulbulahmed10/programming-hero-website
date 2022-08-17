@@ -1328,7 +1328,7 @@ textarea:focus {
   margin: 20px 0;
 }
 
-.course-amount{
+.course-amount {
   font-size: 40px;
   font-weight: 500;
 }
@@ -1368,11 +1368,11 @@ textarea:focus {
 
 /* ============specialty section css starts============== */
 
-.specialty-course{
-  background: #F3F6FE;
+.specialty-course {
+  background: #f3f6fe;
 }
 
-.specialty-title-box{
+.specialty-title-box {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -1385,7 +1385,7 @@ textarea:focus {
   border-radius: 10px;
 }
 
-.specialty-title-item{
+.specialty-title-item {
   display: flex;
   flex-direction: column;
   cursor: pointer;
@@ -1393,7 +1393,7 @@ textarea:focus {
   position: relative;
 }
 
-.specialty-title-item::after{
+.specialty-title-item::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -1403,28 +1403,25 @@ textarea:focus {
   bottom: 0;
 }
 
-.specialty-title-item i{
+.specialty-title-item i {
   font-size: 40px;
   margin-bottom: 20px;
-  color: #6C6C6C;
-
+  color: #6c6c6c;
 }
 
-.specialty-title-item span{
+.specialty-title-item span {
   font-size: 17px;
-  color: #6C6C6C;
+  color: #6c6c6c;
   font-weight: 500;
-
 }
 
-.specialty-info-container{
+.specialty-info-container {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-
 }
 
-.specialty-info-box{
+.specialty-info-box {
   width: 22%;
   margin-right: 2px;
   background: #fff;
@@ -1432,29 +1429,28 @@ textarea:focus {
   box-shadow: 0 10px 12px 0 rgba(55, 84, 170, 0.1019607843);
   margin-top: 40px;
   margin-right: 30px;
-  
 }
 
-.specialty-info-box img{
+.specialty-info-box img {
   width: 70px;
   height: 70px;
 }
 
-.specialty-info-box h4{
+.specialty-info-box h4 {
   font-size: 17px;
   color: #383838;
   margin-top: 10px;
   font-weight: 500;
 }
 
-.specialty-info-box p{
+.specialty-info-box p {
   font-size: 14px;
   line-height: 21px;
   color: #383838;
 }
 
-.read-more-btn{
-  color: #E55353;
+.read-more-btn {
+  color: #e55353;
   font-size: 14px;
   font-weight: 700;
   border: none;
@@ -1464,33 +1460,33 @@ textarea:focus {
 
 /* ========inside-course css section starts=========== */
 
-.inside-course{
+.inside-course {
   min-height: 100vh;
 }
 
-.inside-course-container{
+.inside-course-container {
   display: flex;
   width: 100%;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
-.inside-course h3{
+.inside-course h3 {
   margin-top: 40px;
   text-align: center;
   font-size: 34px;
   font-weight: 700;
-
 }
 
-.inside-course-left{
+.inside-course-left {
   display: flex;
   flex-direction: column;
   box-shadow: 0 10px 12px 0 rgba(55, 84, 170, 0.1019607843);
   padding: 20px;
   border-radius: 10px;
+  height: 400px;
 }
 
-.inside-course-left img{
+.inside-course-left img {
   border-radius: 10px;
 }
 
@@ -1499,4 +1495,29 @@ textarea:focus {
   transform: translate(30%);
 }
 
+.inside-course-right {
+  margin-left: 50px;
+  height: 400px;
+  overflow-y: scroll;
+  width: 100%;
+}
 
+.inside-course-right::-webkit-scrollbar {
+  background: #f6f6f6;
+  box-shadow: 0 0 1px #cecdcd;
+  border-radius: 8px;
+  width: 10px;
+  padding: 1px;
+}
+
+.inside-course-right::-webkit-scrollbar-thumb {
+  outline: 0;
+  border-radius: 10px;
+  background: #e8e6e9;
+}
+
+.scroll-content span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e1e1e;
+}
