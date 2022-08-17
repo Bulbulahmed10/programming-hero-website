@@ -1461,7 +1461,7 @@ textarea:focus {
 /* ========inside-course css section starts=========== */
 
 .inside-course {
-  min-height: 100vh;
+  min-height:90vh;
 }
 
 .inside-course-container {
@@ -1520,4 +1520,63 @@ textarea:focus {
   font-size: 18px;
   font-weight: 600;
   color: #1e1e1e;
+}
+
+/* =========course-accordion section css starts========== */
+
+.course-accordion{
+  background: #653EF5;
+}
+
+.course-accordion-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 80px;
+  align-items: center;
+}
+
+.course-accordion h3{
+  text-align: center;
+  margin-top: 40px ;
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.course-accordion-left-side{
+  width: 60%;
+}
+
+.accordion-button::after{
+  background-image: url(/images/plus-32.png);
+}
+
+.accordion-button:not(.collapsed)::after{
+  background-image: url(/images/minus-32.png) ;
+}
+
+.accordion-header button{
+  background: #552DDB;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.accordion-item{
+  margin-bottom: 15px;
+  background: #5930E1;
+}
+
+.accordion-body{
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed){
+  background:  #552DDB;
+  color: #fff;
+}
+
+.course-accordion-left-side{
+  margin-left: 20px;
 }
