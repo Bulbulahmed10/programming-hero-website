@@ -34,31 +34,26 @@ var swiper = new Swiper('.mySwiper', {
 });
 
 
+var swiper = new Swiper('.cardSwiper', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 2,
+  loop: true,
+  coverflowEffect: {
+      rotate: 40,
+      stretch:0,
+      depth: 60,
+      modifier: 18,
+      slideShadows: true,
+  },
+  autoplay: {
+      delay: 3000,
+  },
+  pagination: {
+        el: ".swiper-pagination",
+      },
+});
 
 
-
-
-
-
-// var swiper = new Swiper(".mySwiper", {
-//   effect: "coverflow",
-//   grabCursor: true,
-//   centeredSlides: true,
-//   slidesPerView: "auto",
-//   coverflowEffect: {
-//     rotate: 50,
-//     stretch: 0,
-//     depth: 100,
-//     modifier: 1,
-//     slideShadows: true,
-//     loop:true,
-//     speed:500,
-//     autoplay:{
-//       delay:1000
-//     }
-//   },
-//   pagination: {
-//     el: ".swiper-pagination",
-//   },
-// });
 
