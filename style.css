@@ -772,7 +772,7 @@ hr.divider {
 }
 
 .form-area input[type="email"],
-input[type="text"] {
+input[type="text"],input[type="number"],input[type="password"] {
   padding: 15px;
   width: 450px;
   margin-bottom: 10px;
@@ -1601,11 +1601,11 @@ textarea:focus {
   display: block;
   width: 100%;
 }
-.swiper-3d .swiper-slide-shadow-left{
+.swiper-3d .swiper-slide-shadow-left {
   background: none;
 }
 
-.swiper-3d .swiper-slide-shadow-right{
+.swiper-3d .swiper-slide-shadow-right {
   background: none;
 }
 /* =========swiper slider ends========= */
@@ -1614,7 +1614,7 @@ textarea:focus {
   background: #f5f7ff;
 }
 
-.student-project-container{
+.student-project-container {
   padding: 0 20px;
 }
 
@@ -1650,13 +1650,11 @@ textarea:focus {
   object-fit: cover;
 }
 
-.assignment-card h4{
+.assignment-card h4 {
   font-size: 17px;
-  color: #3C4B64;
+  color: #3c4b64;
   margin-top: 10px;
 }
-
-
 
 /* =======button design css==========  */
 .buttons {
@@ -1668,7 +1666,7 @@ textarea:focus {
   font-weight: 600;
   color: #fff;
   cursor: pointer;
-  margin:20px 5px 10px 0;
+  margin: 20px 5px 10px 0;
   padding: 10px 20px;
   text-align: center;
   border: none;
@@ -1797,44 +1795,43 @@ textarea:focus {
   box-shadow: 0 2px 8px rgba(242, 97, 103, 0.4);
 }
 
-
 /* =======about jhankar mahbub section css starts========== */
 
-.about-jhankar-mahbub{
+.about-jhankar-mahbub {
   background: #fff;
   min-height: 80vh;
 }
 
-.profile-box{
+.profile-box {
   display: flex;
   align-items: center;
   justify-content: space-between;
   transform: translateY(50%);
 }
 
-.profile-content{
+.profile-content {
   width: 700px;
 }
 
-.profile-content h3{
+.profile-content h3 {
   font-size: 24px;
   font-weight: 700;
   color: #383838;
 }
 
-.profile-content p{
+.profile-content p {
   color: #212529;
   margin-top: 5px;
 }
 
 /* =========students feedbacks section css starts========= */
 
-.students-feedbacks{
+.students-feedbacks {
   min-height: 40vh;
-  background: #F5F7FF;
+  background: #f5f7ff;
 }
 
-.students-feedbacks h3{
+.students-feedbacks h3 {
   font-size: 34px;
   text-align: center;
   font-weight: 700;
@@ -1842,7 +1839,7 @@ textarea:focus {
   padding: 60px 0 60px 0;
 }
 
-.feedbacks-card{
+.feedbacks-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1854,7 +1851,7 @@ textarea:focus {
   box-shadow: 1px 3px 3px rgb(0 0 0 / 2%);
 }
 
-.feedbacks-card img{
+.feedbacks-card img {
   width: 95px;
   height: 95px;
   border: 10px solid #fff;
@@ -1862,7 +1859,7 @@ textarea:focus {
   margin-top: -60px;
 }
 
-.feedbacks-card h4{
+.feedbacks-card h4 {
   font-size: 17px;
   font-weight: 500;
   color: #383838;
@@ -1871,42 +1868,108 @@ textarea:focus {
   text-transform: capitalize;
 }
 
-.feedbacks-card h4 span{
+.feedbacks-card h4 span {
   font-size: 14px;
   color: #383838;
-  
 }
 
-.feedbacks-card .stars i{
+.feedbacks-card .stars i {
   color: #ffb400;
 }
 
-.feedbacks-card p{
+.feedbacks-card p {
   text-align: center;
   margin-top: 20px;
   color: #383838;
 }
 
-.feedbacks-div-btn{
+.feedbacks-div-btn {
   transform: translate(10%);
 }
 
-
 /* ========course footer section css start========= */
 
-.course-footer a{
+.course-footer a {
   text-decoration: none;
   text-transform: capitalize;
 }
 
-.course-social-footer i{
+.course-social-footer i {
   margin-right: 15px;
   font-size: 20px;
 }
 
+/* ============login page css starts=============== */
+
+.login-body {
+  margin-top: 70px;
+  min-height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.login-body-form {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  margin-left: -5px;
+}
+
+.login-body-form h5 {
+  font-size: 24px;
+  color: #6644f7;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
 
 
 
+.login-body-form .checkbox-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.checkbox-div {
+  margin-top: 10px;
+}
 
+.checkbox-div label {
+  margin-left: -180px;
+  font-size: 16px;
+  color: #768192;
+  font-weight: 500;
+}
 
+.checkbox-div a {
+  color: #321fdb;
+  font-style: 14px;
+}
+
+.login-container img {
+  width: 90%;
+  margin: 50px 0 0 70px;
+}
+
+/* ===========register page css starts================== */
+
+.register-div{
+  margin-top: 10px;
+}
+
+.register-div label{
+  font-size: 16px;
+  color: #768192;
+  font-weight: 500;
+}
+
+.register-div label a{
+  color: #CD1F1F;
+}
