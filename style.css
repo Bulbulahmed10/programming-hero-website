@@ -1461,7 +1461,7 @@ textarea:focus {
 /* ========inside-course css section starts=========== */
 
 .inside-course {
-  min-height:90vh;
+  min-height: 90vh;
 }
 
 .inside-course-container {
@@ -1524,11 +1524,11 @@ textarea:focus {
 
 /* =========course-accordion section css starts========== */
 
-.course-accordion{
-  background: #653EF5;
+.course-accordion {
+  background: #653ef5;
 }
 
-.course-accordion-container{
+.course-accordion-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -1536,47 +1536,263 @@ textarea:focus {
   align-items: center;
 }
 
-.course-accordion h3{
+.course-accordion h3 {
   text-align: center;
-  margin-top: 40px ;
+  margin-top: 40px;
   font-size: 34px;
   font-weight: 700;
   color: #fff;
 }
 
-.course-accordion-left-side{
+.course-accordion-left-side {
   width: 60%;
 }
 
-.accordion-button::after{
+.accordion-button::after {
   background-image: url(/images/plus-32.png);
 }
 
-.accordion-button:not(.collapsed)::after{
-  background-image: url(/images/minus-32.png) ;
+.accordion-button:not(.collapsed)::after {
+  background-image: url(/images/minus-32.png);
 }
 
-.accordion-header button{
-  background: #552DDB;
+.accordion-header button {
+  background: #552ddb;
   color: #fff;
   font-size: 19px;
   font-weight: 500;
 }
 
-.accordion-item{
+.accordion-item {
   margin-bottom: 15px;
-  background: #5930E1;
+  background: #5930e1;
 }
 
-.accordion-body{
+.accordion-body {
   color: #fff;
 }
 
-.accordion-button:not(.collapsed){
-  background:  #552DDB;
+.accordion-button:not(.collapsed) {
+  background: #552ddb;
   color: #fff;
 }
 
-.course-accordion-left-side{
+.course-accordion-left-side {
   margin-left: 20px;
+}
+
+/* =============student project section css start============= */
+
+/* =========swiper slider css starts========= */
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 570px;
+  height: 570px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.swiper-3d .swiper-slide-shadow-left{
+  background: none;
+}
+
+.swiper-3d .swiper-slide-shadow-right{
+  background: none;
+}
+/* =========swiper slider ends========= */
+.student-project {
+  min-height: 100vh;
+  background: #f5f7ff;
+}
+
+.student-project-container{
+  padding: 0 20px;
+}
+
+.student-project-heading h3 {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.student-project-heading p {
+  text-align: center;
+  color: #383838;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.assignment-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  width: 500px;
+  height: 580px;
+  display: block;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 35px -2px rgb(72 73 121 / 15%);
+}
+.assignment-card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.assignment-card h4{
+  font-size: 17px;
+  color: #3C4B64;
+  margin-top: 10px;
+}
+
+
+
+/* =======button design css==========  */
+.buttons {
+  text-align: center;
+}
+
+.btn-hover {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin:20px 5px 10px 0;
+  padding: 10px 20px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-1 {
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #40e495,
+    #30dd8a,
+    #2bb673
+  );
+  box-shadow: 0 2px 8px 0 rgba(49, 196, 190, 0.75);
+}
+.btn-hover.color-2 {
+  background-image: linear-gradient(
+    to right,
+    #f5ce62,
+    #e43603,
+    #fa7199,
+    #e85a19
+  );
+  box-shadow: 0 2px 8px 0 rgba(229, 66, 10, 0.75);
+}
+.btn-hover.color-3 {
+  background-image: linear-gradient(
+    to right,
+    #667eea,
+    #764ba2,
+    #6b8dd6,
+    #8e37d7
+  );
+  box-shadow: 0 2px 8px 0 rgba(116, 79, 168, 0.75);
+}
+.btn-hover.color-4 {
+  background-image: linear-gradient(
+    to right,
+    #fc6076,
+    #ff9a44,
+    #ef9d43,
+    #e75516
+  );
+  box-shadow: 0 2px 8px 0 rgba(252, 104, 110, 0.75);
+}
+.btn-hover.color-5 {
+  background-image: linear-gradient(
+    to right,
+    #0ba360,
+    #3cba92,
+    #30dd8a,
+    #2bb673
+  );
+  box-shadow: 0 2px 8px 0 rgba(23, 168, 108, 0.75);
+}
+.btn-hover.color-6 {
+  background-image: linear-gradient(
+    to right,
+    #009245,
+    #fcee21,
+    #00a8c5,
+    #d9e021
+  );
+  box-shadow: 0 2px 8px 0 rgba(83, 176, 57, 0.75);
+}
+.btn-hover.color-7 {
+  background-image: linear-gradient(
+    to right,
+    #6253e1,
+    #852d91,
+    #a3a1ff,
+    #f24645
+  );
+  box-shadow: 0 2px 8px 0 rgba(126, 52, 161, 0.75);
+}
+.btn-hover.color-8 {
+  background-image: linear-gradient(
+    to right,
+    #29323c,
+    #485563,
+    #2b5876,
+    #4e4376
+  );
+  box-shadow: 0 2px 8px 0 rgba(45, 54, 65, 0.75);
+}
+.btn-hover.color-9 {
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+  box-shadow: 0 2px 8px 0 rgba(65, 132, 234, 0.75);
+}
+.btn-hover.color-10 {
+  background-image: linear-gradient(
+    to right,
+    #ed6ea0,
+    #ec8c69,
+    #f7186a,
+    #fbb03b
+  );
+  box-shadow: 0 2px 8px 0 rgba(236, 116, 149, 0.75);
+}
+.btn-hover.color-11 {
+  background-image: linear-gradient(
+    to right,
+    #eb3941,
+    #f15e64,
+    #e14e53,
+    #e2373f
+  );
+  box-shadow: 0 2px 8px rgba(242, 97, 103, 0.4);
 }

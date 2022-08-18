@@ -1,14 +1,3 @@
-// const readMoreBtn = document.querySelector(".read-more-btn");
-// const text = document.querySelector(".text-line");
-
-// readMoreBtn.addEventListener("click", (e) => {
-//   text.classList.toggle("show-more");
-//   if (readMoreBtn.innerText === "আরও দেখুন") {
-//     readMoreBtn.innerText = "অল্প দেখুন";
-//   } else {
-//     readMoreBtn.innerText = "আরও দেখুন";
-//   }
-// });
 
 $(document).ready(function () {
   $(".more-text").hide();
@@ -23,5 +12,53 @@ $(document).ready(function () {
 });
 
 
+var swiper = new Swiper('.mySwiper', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 3,
+  loop: true,
+  coverflowEffect: {
+      rotate: 50,
+      stretch:0,
+      depth: 60,
+      modifier: 1,
+      slideShadows: true,
+  },
+  autoplay: {
+      delay: 3000,
+  },
+  pagination: {
+        el: ".swiper-pagination",
+      },
+});
 
+
+
+
+
+
+
+
+// var swiper = new Swiper(".mySwiper", {
+//   effect: "coverflow",
+//   grabCursor: true,
+//   centeredSlides: true,
+//   slidesPerView: "auto",
+//   coverflowEffect: {
+//     rotate: 50,
+//     stretch: 0,
+//     depth: 100,
+//     modifier: 1,
+//     slideShadows: true,
+//     loop:true,
+//     speed:500,
+//     autoplay:{
+//       delay:1000
+//     }
+//   },
+//   pagination: {
+//     el: ".swiper-pagination",
+//   },
+// });
 
