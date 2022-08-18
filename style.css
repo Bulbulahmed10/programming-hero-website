@@ -1830,7 +1830,7 @@ textarea:focus {
 /* =========students feedbacks section css starts========= */
 
 .students-feedbacks{
-  min-height: 90vh;
+  min-height: 40vh;
   background: #F5F7FF;
 }
 
@@ -1886,4 +1886,27 @@ textarea:focus {
   margin-top: 20px;
   color: #383838;
 }
+
+.feedbacks-div-btn{
+  transform: translate(10%);
+}
+
+
+/* ========course footer section css start========= */
+
+.course-footer a{
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.course-social-footer i{
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+
+
+
+
+
 

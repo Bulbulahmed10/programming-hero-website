@@ -50,9 +50,6 @@ var swiper = new Swiper('.cardSwiper', {
   autoplay: {
       delay: 3000,
   },
-  pagination: {
-        el: ".swiper-pagination",
-      },
 });
 
 
