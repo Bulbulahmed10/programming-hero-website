@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
   $(".more-text").hide();
   $(document).on("click", ".read-more-btn", function () {
@@ -11,47 +10,41 @@ $(document).ready(function () {
   });
 });
 
-
-var swiper = new Swiper('.mySwiper', {
-  effect: 'coverflow',
+var swiper = new Swiper(".mySwiper", {
+  effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
   slidesPerView: 3,
   loop: true,
   coverflowEffect: {
-      rotate: 50,
-      stretch:0,
-      depth: 60,
-      modifier: 1,
-      slideShadows: true,
+    rotate: 50,
+    stretch: 0,
+    depth: 60,
+    modifier: 1,
+    slideShadows: true,
   },
   autoplay: {
-      delay: 3000,
+    delay: 3000,
   },
   pagination: {
-        el: ".swiper-pagination",
-      },
+    el: ".swiper-pagination",
+  },
 });
 
-
-var swiper = new Swiper('.cardSwiper', {
-  effect: 'coverflow',
+var swiper = new Swiper(".cardSwiper", {
+  effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
   slidesPerView: 2,
   loop: true,
   coverflowEffect: {
-      rotate: 40,
-      stretch:0,
-      depth: 60,
-      modifier: 18,
-      slideShadows: true,
+    rotate: 40,
+    stretch: 0,
+    depth: 60,
+    modifier: 18,
+    slideShadows: true,
   },
   autoplay: {
-      delay: 3000,
+    delay: 3000,
   },
 });
-
-
-
-

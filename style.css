@@ -2086,26 +2086,26 @@ textarea:focus {
 
 /* ================success page css starts================= */
 
-.successfull-heading{
+.successfull-heading {
   margin-top: 70px;
-  background: #622BED;
+  background: #622bed;
   text-align: center;
   color: #fff;
 }
 
-.successfull-heading h3{
+.successfull-heading h3 {
   text-transform: capitalize;
   font-size: 34px;
   font-weight: 700;
   margin-top: 10px;
 }
 
-.successfull-heading p{
+.successfull-heading p {
   font-size: 18px;
   font-weight: 500;
 }
 
-.sucess-student-box{
+.sucess-student-box {
   background: #fff;
   width: 580px;
   margin: 20px 20px 0 0;
@@ -2113,62 +2113,58 @@ textarea:focus {
 
 .feedback-side {
   display: flex;
-  
 }
 
-.feedback-side img{
+.feedback-side img {
   width: 245px;
   height: 245px;
 }
 
-.feedback-side p{
+.feedback-side p {
   padding: 10px;
 }
 
-.student-info-side{
+.student-info-side {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #5A00DD;
+  background: #5a00dd;
 }
 
-.student-info-side div{
+.student-info-side div {
   padding: 10px 0 10px 10px;
   height: 60px;
 }
 
-.student-info-side h5{
+.student-info-side h5 {
   font-size: 16px;
   color: #fff;
   font-weight: 500;
 }
 
-.student-info-side p{
+.student-info-side p {
   font-size: 14px;
   color: #fff;
 }
 
-.student-info-side span{
+.student-info-side span {
   color: #fff;
-  background: #6F21E1;
+  background: #6f21e1;
   padding: 20px;
 }
 
-.successfull-students-lists{
+.successfull-students-lists {
   display: flex;
   flex-wrap: wrap;
 }
 
-
-.succ-stu-feedback{
+.succ-stu-feedback {
   width: 50%;
   box-shadow: none;
   margin-top: 0;
   margin-right: 0;
 }
 
-.succ-stu-feedback p{
+.succ-stu-feedback p {
   font-size: 16px;
 }
-
-
