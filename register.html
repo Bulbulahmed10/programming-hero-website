@@ -9,6 +9,11 @@
       type="x-icon"
       href="/images/programming-hero.ico"
     />
+    <!-- ===========swiper css cdn link============ -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
     <!-- ======font awsome cdn link========= -->
     <link
       rel="stylesheet"
@@ -21,25 +26,64 @@
   <body style="background: #622bed">
     <!-- ===============hero section start========== -->
 
-    <div class="menu-area">
+    <header class="contact-header app-hero-container">
       <div class="logo">
         <a href="index.html"><img src="/images/logo.png" alt="" /></a>
       </div>
-      <ul class="course-navbar">
-        <li><a href="about.html">about us</a></li>
-        <li><a href="#">blog</a></li>
-        <li><a href="#">success</a></li>
-        <li><i class="fa-solid fa-cart-shopping"></i></li>
-        <li><a class="course-btn" href="login.html">login</a></li>
-        <li>
-          <a style="margin-left: -15px" class="course-btn" href="register.html"
-            >register</a
-          >
-        </li>
-      </ul>
-    </div>
+      <nav class="navbar">
+        <a href="index.html" id="home">home</a>
+        <a href="login.html">payment</a>
+        <a href="#">blog</a>
+        <a href="contact.html">contact us</a>
+        <a href="login.html">login</a>
+      </nav>
+    </header>
     <section class="login-body carousel-container">
       <div class="login-container">
+        <div>
+          <div class="login-slide-area">
+            <div class="swiper login-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="login-slide-card">
+                    <img src="/images/login-slide-1.png" alt="" />
+                    <h5>powerful advanced contents</h5>
+                    <p>Master your skills with extra lessons /explanations.</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="login-slide-card">
+                    <img src="/images/login-slide-2.png" alt="" />
+                    <h5>Exclusive Video Courses</h5>
+                    <p>Only available for premium members.</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="login-slide-card">
+                    <img src="/images/login-slide-3.png" alt="" />
+                    <h5>Instant VIP Support</h5>
+                    <p>Stuck? Get expert support withing 24 hours..</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="login-slide-card">
+                    <img src="/images/login-slide-4.png" alt="" />
+                    <h5>Reveal Secret Contents</h5>
+                    <p>Only visible to premium users.</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="login-slide-card">
+                    <img src="/images/login-slide-5.png" alt="" />
+                    <h5>Limited Premium Certificate</h5>
+                    <p>Win an exclusively designed advanced certificate.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
         <form class="login-body-form form-area">
           <h5>Register</h5>
           <span>Name</span>
@@ -59,10 +103,6 @@
           </div>
           <button class="login-btn">Register</button>
         </form>
-
-        <div>
-          <img src="/images/carousel-2.png" alt="" />
-        </div>
       </div>
     </section>
 
@@ -76,7 +116,7 @@
               support@programming-hero.com</span
             >
             <p>(Available:10am to 07:00pm)</p>
-            <a href="#"><img src="/images/google-play.png" alt="" /></a>
+            <a href="#"><img style="margin-top: 10px" src="/images/google-play.png" alt="" /></a>
           </div>
           <div class="footer-middle footer-item course-footer">
             <a href="blog.html">blog</a>
@@ -98,5 +138,10 @@
         </div>
       </div>
     </section>
+    <!-- ==========swiper js cdn link============= -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- =======custom js file link========== -->
+    <script src="main.js"></script>
+    <script src="login.js"></script>
   </body>
 </html>
